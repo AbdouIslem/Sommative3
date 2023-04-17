@@ -4,9 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Conflit!");
-            Console.WriteLine("Conflit");
-            Console.WriteLine("Conflit");
+
+
+            Hotel hotel= new Hotel();
+            Client client = new Client("nom", "prenom", "courriel", "3323", 2);
+
+            hotel.AjoutClient(client);
+            hotel.ImprimerChiffrede1a5();
+
         }
     }
 }
