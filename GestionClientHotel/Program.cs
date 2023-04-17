@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+
+
             Hotel hotel= new Hotel();
             Client client = new Client("nom", "prenom", "courriel", "3323", 2);
 
